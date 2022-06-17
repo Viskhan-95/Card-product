@@ -1,0 +1,107 @@
+.main {
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: 5px 4px 3px lightgray;
+}
+
+button {
+    cursor: pointer;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.content {
+    display: flex;
+    padding: 30px 0 30px 30px;
+    border-bottom: 5px solid lightgray;
+    border-radius: 5px;
+}
+
+.sneaker {
+    width: 100%;
+}
+
+.details {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.details button {
+    width: 180px;
+    height: 50px;
+    font-size: 22px;
+    border: 3px solid;
+    border-radius: 5px;
+    border-color: blue;
+    color: blue;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.text_block {
+    padding: 30px;
+    font-size: 26px;
+}
+
+.add {
+    padding: 30px 0;
+}
+
+.btns {
+    padding: 0 20px;
+}
+
+.add button{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.delete_prod button{
+    font-size: 18px;
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    border: none;
+}
+
+.delete_prod button:hover {
+    text-decoration: underline;
+}
+
+.showText button {
+    width: 100%;
+    border: none;
+    color: black;
+    text-align: right;
+    padding: 10px;
+    font-size: 14px;
+    height: 15px;
+}
+
+.showText {
+    width: 20%;
+    position: absolute;
+    box-shadow: 4px 3px 2px lightgray;
+    right: 75px;
+    margin-bottom: 150px;
+    
+}
